@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brown Express Courier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Brown Express Courier</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>Fast • Reliable • Same-Day Delivery</h2>
+    <p>Serving businesses and individuals with dependable local courier services.</p>
+    <a class="btn" href="#contact">Request a Delivery</a>
+  </div>
+</section>
+
+<section id="services" class="container">
+  <h2>Our Services</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Same-Day Delivery</h3>
+      <p>Fast pickup and delivery throughout the local area.</p>
+    </div>
+
+    <div class="card">
+      <h3>Medical Courier</h3>
+      <p>Reliable transportation of medical supplies and documents.</p>
+    </div>
+
+    <div class="card">
+      <h3>Business Delivery</h3>
+      <p>Scheduled deliveries for offices, retailers, and professionals.</p>
+    </div>
+
+    <div class="card">
+      <h3>Legal Documents</h3>
+      <p>Secure delivery of contracts, filings, and important paperwork.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="container">
+  <h2>About Us</h2>
+  <p>
+    Brown Express Courier is committed to providing dependable, professional,
+    and on-time delivery services. Whether it's an urgent document or a
+    scheduled business delivery, we focus on speed, communication, and customer
+    satisfaction.
+  </p>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact Us</h2>
+
+  <p><strong>Phone:</strong> (555) 555-5555</p>
+  <p><strong>Email:</strong> info@brownexpress.com</p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Tell us about your delivery"></textarea>
+    <button type="submit">Send Request</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Brown Express Courier. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
